@@ -1,0 +1,21 @@
+body{
+    background-color: burlywood;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid 1px black;
+    background-color: bisque;
+}
+
+td{
+    border: solid 1px black;
+}
+.bold{
+    font-weight: bold;
+}
+.submit{
+    margin-left: 91%;
+}

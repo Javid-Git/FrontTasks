@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../Task2-2/assets/styles/Register.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../Task2-2/Success.html">
+        <table>
+            <tr>
+                <td colspan="4" class="bold" style="font-size: larger;">New Member Registration</td>
+            </tr>
+            <tr>
+                <td>Enter your fullname</td>
+                <td colspan="3"><input type="text" name="fullname" placeholder="Name Surname"></td>
+            </tr>
+            <tr>
+                <td>Enter your E-mail adress</td>
+                <td colspan="3"><input type="text" name="email" placeholder="E-mail adress"></td>
+            </tr>
+            <tr>
+                <td>Enter new username</td>
+                <td colspan="3"><input type="text" name="username" placeholder="username"></td>
+            </tr>
+            <tr>
+                <td>Enter new password</td>
+                <td colspan="3"><input type="password" name="password" placeholder="password"></td>
+            </tr>
+            <tr>
+                <td>Select your gender</td>
+                <td colspan="3"><select name="gender">
+                    <option value="select">--select--</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="imaginary">Imaginary</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Select convenient shift</td>
+                
+                <td><label for="morning">Morning</label>
+                    <input type="checkbox" name="morning"></td>
+                
+                <td><label for="evening">Evening</label>
+                    <input type="checkbox" name="evening"></td>
+                
+                <td><label for="night">Night</label>
+                    <input type="checkbox" name="night"></td>
+            </tr>
+            <tr>
+                <td class="bold">You confirm you over 18 y.o</td>
+                <td colspan="3"><label for="virgin">Yes, I do</label>
+                    <input type="checkbox" name="virgin"></td>
+            </tr>
+            <tr>
+                <td>Upload your CV</td>
+                <td colspan="3"><button name="cv">Upload</button>
+                    <label for="cv" style="font-style: italic;">Optional</label></td>
+                
+            </tr>
+            <tr>
+                <td colspan="4"><button class="submit">Submit</button></td>
+            </tr>
+        </table>
+    </form>
+  
+</body>
+</html>
