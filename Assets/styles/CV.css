@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+*{
+    font-family: Roboto;
+}
+.main-screen{
+    padding: 10px 100px;
+}
+.info-part{
+    display: flex;
+}
+.first-part{
+    width: 50%;
+    border-left: 2px grey dashed;
+    border-right: 2px grey dashed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.second-part{
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 2px grey dashed;
+}
+.describtion{
+    color: grey;
+}
+
+.describtion-header{
+    color: rgb(89, 126, 228);
+}
+.subdescription{
+    color: rgb(92, 90, 90);
+}
+.header-part{
+    display: flex;
+    margin-bottom: 30px;
+}
+.header-info{
+    margin-left: 30px;
+}
+.header-pic{
+
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+}
+.header-pics{
+    padding-top: 20px;
+}
