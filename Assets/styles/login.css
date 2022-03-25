@@ -1,0 +1,83 @@
+* {
+    font-family: "Poppins";
+  }
+
+body{
+
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(219, 51%, 91%);
+    height: 100vh;
+}
+.main-div{
+    display: flex;
+    padding: 2em;
+    padding-top: 4em;
+    flex-direction: column;
+    background:hsl(272, 80%, 90%);
+    box-shadow: 0 0 2em hsl(220, 54%, 83%);
+    border-radius: 30px;
+    gap: 2em;
+
+}
+.main-div .email{
+    background: white;  
+    box-shadow: 0 0 2em hsl(272, 83%, 88%);
+    padding: 1em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 3%, 27%);
+    flex-direction: column;
+    margin-top: -3em;
+    gap: 0.5em;
+}
+ion-icon{
+    margin-bottom: -0.2em;
+}
+.main-div .password{
+    background: white;  
+    box-shadow: 0 0 2em hsl(272, 83%, 88%);
+    padding: 1em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 30%);
+    flex-direction: column;
+    gap: 0.5em;
+}
+.main-div .password input {
+    outline: none;
+    border: none;
+}
+.main-div .email input {
+    outline: none;
+    border: none;
+}
+.main-div .password input::placeholder{
+    color: rgb(184, 171, 171);
+    font-size: 0.9em;
+}
+.main-div .email input::placeholder{
+    color: rgb(184, 173, 173);
+    font-size: 0.9em;
+}
+.footer{
+    display: flex;
+    gap: 14em;
+    padding-bottom: 2em;
+    font-size: 0.9em;
+    color: #5e5e5e;
+}
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+    background: rgb(151, 151, 241);
+    padding: 1em;
+
+}
