@@ -1,0 +1,175 @@
+.grid-container{
+    margin: auto;
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(10, 250px);
+    width: 900px;
+    box-shadow: 0px 0px 40px gray;
+}
+header{
+    margin: auto;
+    width: 900px;
+    display: flex;
+    color: rgb(63, 63, 63);
+    font-size: large;
+}
+.p-header{
+    margin: 0;
+}
+.menu{
+    margin-left: 250px;
+    display: flex;
+}
+.header-portfolio, .header-network{
+    margin-left: 80px;
+}
+#img{
+    width: 110px;
+    height: 93px;
+}
+
+.block1{
+    grid-area: 1 / 1 / span 2 / span 1;
+    background-color: rgb(207, 238, 246);
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.block2{
+    grid-area: 1 / 2 / span 2 / span 2;
+    background-color: rgb(173, 173, 173);
+    margin: 5px;
+
+}
+.block3{
+    grid-area: 3 / 1 / span 1 / span 1;
+    background-color: rgb(220, 243, 204);
+    margin: 5px;
+    padding: 10px;
+
+}
+.block4{
+    grid-area: 4 / 1 / span 1 / span 1;
+    background-color: rgb(241, 240, 240);
+    margin: 5px;
+    padding: 10px;
+}
+.block5{
+    grid-area: 3 / 2 / span 2 / span 1;
+    background-color: rgb(209, 207, 207);
+    margin: 5px;
+
+}
+.block6{
+    grid-area: 3 / 3 / span 1 / span 1;
+    background-color: rgb(255, 248, 152);
+    margin: 5px;
+    padding: 10px;
+}
+.block7{
+    grid-area: 4 / 3 / span 1 / span 1;
+    background-color: rgb(241, 240, 240);
+    margin: 5px;
+
+}
+.block8{
+    grid-area: 5 / 1 / span 2 / span 2;
+    background-color: rgb(241, 154, 176);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.block9{
+    grid-area: 5 / 3 / span 2 / span 1;
+    background-color: rgb(241, 237, 237);
+    margin: 5px;
+
+}
+.block10{
+    grid-area: 7 / 1 / span 2 / span 2;
+    background-color: rgb(182, 241, 154);
+    margin: 5px;
+
+}
+.block11{
+    grid-area: 9 / 1 / span 2 / span 2;
+    background-color: rgb(220, 243, 204);
+    margin: 5px;
+    padding: 10px;
+}
+.block12{
+    grid-area: 7 / 3 / span 1 / span 1;
+    background-color: rgb(237, 238, 237);
+    margin: 5px;
+
+}
+.block13{
+    grid-area: 8 / 3 / span 1 / span 1;
+    background-color: rgb(237, 238, 237);
+    margin: 5px;
+
+}
+.block14{
+    grid-area: 9 / 3 / span 1 / span 1;
+    background-color: rgb(207, 238, 246);
+    margin: 5px;
+
+}
+.block15{
+    grid-area: 10 / 3 / span 1 / span 1;
+    background-color: rgb(255, 248, 152);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+
+}
+
+#content-pic1, #content-pic2, #content-pic3, #content-pic4, #content-pic5, #content-pic6, #content-pic7, #content-pic8{
+    width: 100%;
+    height: 100%;
+}
+.content-header{
+    text-decoration: underline;
+    color: rgb(88, 88, 88);
+
+}
+#mailing-input{
+    height: 35px;
+    border: none;
+}
+#mailing-button{
+    margin-top: 15px;
+    height: 40px;
+    border: none;
+    background-color: rgb(252, 240, 72);
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+footer{
+    margin-top: 60px;
+    display: flex;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+}
+.contact-footer{
+    margin-left: 100px;
+    display: flex;
+}
+.footer-tema{
+    margin-left: 40px;
+}
+.info-footer{
+    margin-left: 150px;
+}
