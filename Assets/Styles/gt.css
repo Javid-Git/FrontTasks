@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 4rem;
+}
+header{
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+}
+input{
+    outline: none;
+    border: none;
+}
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-logo img{
+    width: 50%;
+}
+.header-menu{
+    display: flex;
+}
+
+.header-menu a{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.right-icon{
+    font-size: 18px;
+    margin-left: 10px;
+    color: #fff;
+}
+#right-icon2{
+    position: relative;
+
+}
+.header-menu span{
+    position: absolute;
+    background-color: crimson;
+    border-radius: 50%;
+    top: 14px;
+    right: 58px;
+    padding: 0 5px;
+    font-size: 10px;
+    color: #fff;
+}
+#first{
+    background-image: url(https://themegoods-cdn-pzbycso8wng.stackpathdns.com/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-225630.jpeg);
+    background-attachment: fixed;
+}
+.first-text{
+    padding-top: 14rem;
+    text-align: center;
+    color: #fff;
+
+}
+.first-text h1{
+    font-size: 70px;
+}
+.first-text p{
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+.first-inputs{
+    display: flex;
+    padding-bottom: 14rem;
+    justify-content: center;
+    padding-top: 2rem;
+
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-right: 10px;
+
+}
+.inputs input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.inputs ion-icon{
+    margin-left: 5px;
+}
+.inputs-btn{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    background-color: rgb(255, 74, 82);
+    border-radius: 5px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.inputs-btn button{
+
+    border: none;
+    background-color: rgb(255, 74, 82);
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 70px;
+    font-weight: bold;
+    z-index: 2;
+
+}
+.second-text{
+    padding-top: 5rem;
+    text-align: center;
+}
+.second-text h1{
+    font-size: 40px;
+}
+.second-text p{
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+.second-menu{
+    display: flex;
+    padding-top: 3rem;
+}
+.second-options{
+    position: relative;
+    margin-left: 20px;
+    height: 340px;
+    transition: .5s;
+    cursor: pointer;
+}
+.second-options:hover{
+    filter: drop-shadow(0px 0px 10px rgb(95, 95, 95));
+}
+.second-options img{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.second-options h1{
+    position: absolute;
+    padding: 10px 15px;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+}
+
+.third-text{
+    padding-top: 5rem;
+    text-align: center;
+}
+.third-text h1{
+    font-size: 40px;
+}
+.third-text p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.third-menu{
+    display: flex;
+}
+
+.third-menu{
+    padding-top: 3rem;
+}
+.third-options{
+    border-radius: 5px;
+    border: 1px solid rgb(212, 212, 212);
+    margin-left: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
+.third-options:hover{
+    filter: drop-shadow(0px 0px 10px rgb(95, 95, 95));
+}
+.third-menu-pic img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.third-menu-pic{
+    position: relative;
+}
+.third-menu-text{
+    padding: 20px 20px 5px 20px;
+}
+.third-menu-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.s-sale{
+    position: absolute;
+    top: -25px;
+    right: -20px;
+    background-color: rgb(105, 230, 188);
+    color: #fff;
+    padding: 15px 13px;
+    border-radius: 50%;
+}
+.s-price{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    background-color: rgb(240, 37, 37);
+    color: #fff;
+    padding: 5px 10px;
+}
+.third-menu-footer-right ion-icon{
+    color: rgb(69, 233, 170);
+}
+.fourth-text{
+    padding-top: 5rem;
+    text-align: center;
+}
+.fourth-text h1{
+    font-size: 40px;
+}
+.fourth-text p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.fourth-options{
+    display: flex;
+    padding-top: 3rem;
+}
+.fourth-option{
+    margin-left: 20px;
+
+}
+.fourth-options-pic{
+    margin: 20px;
+    width: 150px;
+    margin: auto;
+}
+.fourth-options-pic img{
+    width: 100%;
+    height: 150px;
+}
+.fourth-options-text{
+    text-align: center;
+}
+.fourth-options-text p, h1{
+    padding-top: 20px;
+}
+
+.fifth-text{
+    padding-top: 5rem;
+    text-align: center;
+}
+.fifth-text h1{
+    font-size: 40px;
+    color: black;
+}
+.fifth-text p{
+    font-size: 15px;
+    padding-top: 10px;
+    color: #000;
+}
+
+.fifth-menu{
+    display: flex;
+}
+
+.fifth-menu{
+    padding-top: 3rem;
+}
+.fifth-options{
+    border-radius: 5px;
+    border: 1px solid rgb(212, 212, 212);
+    margin-left: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
+.fifth-options:hover{
+    filter: drop-shadow(0px 0px 10px rgb(95, 95, 95));
+}
+.fifth-menu-pic img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.fifth-menu-text{
+    padding: 25px;
+    margin-top: 10px;
+}
+.fifth-menu-text h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.fifth-menu-footer p{
+    padding-top: 4rem;
+    padding-bottom: 10px;
+    color: rgb(212, 209, 209);
+    text-decoration: underline;
+}
+
+.footer-main{
+    background-color: black;
+}
+
+footer{
+    padding-top: 4rem;
+}
+.footer-top{
+    display: flex;
+    padding: 20px;
+}
+.footer-top1, .footer-top2, .footer-top3{
+    width: 33%;
+    padding: 3rem;
+}
+.footer-top1 h3{
+    color: #fff;
+}
+.footer-top1 p{
+    color: rgb(243, 241, 241);
+    font-size: 15px;
+    padding-top: 10px;
+}
+.footer-top1 img{
+    max-width: 60%;
+    padding-top: 2rem;
+}
+
+.footer-top2 ion-icon, .footer-top2 p, .footer-top2 h3{
+    color: #fff;
+}
+.footer-top2 .tema{
+    padding-top: 20px;
+    font-size: 15px;
+}
+.tema{
+    display: flex;
+    align-items: center;
+}
+.footer-top3{
+    width: 33%;
+}
+.footer-top3 h3{
+    color: #fff;
+}
+.footer-bottom{
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 45px;
+}
+
+.footer-bottom-right{
+    display: flex;
+    margin-left: 15px;
+}
+.footer-bottom-right p{
+    margin-left: 15px;
+}
+.footer-bottom-left p, .footer-bottom-right p{
+    color: #fff;
+    font-size: 15px;
+}
