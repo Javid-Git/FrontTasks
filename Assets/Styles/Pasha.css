@@ -1,0 +1,955 @@
+@font-face {
+    font-family: "Fira";
+    src: url(../Fonts/Freight\ Big\ Light.otf);
+}
+
+@media (min-width: 768px){
+    .mobile-version{
+        display: none;
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    body{
+        background: rgba(218, 218, 218, 0.7)  url(https://www.pasha-holding.az/site/assets/files/1033/shutterstock_527339023_copy_17.png);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-position: 35% 35%;
+        background-attachment: fixed;
+    }
+    
+    .container-main{
+        padding: 2rem 2.7rem;
+    }
+    .header-all{
+        display: flex;
+        align-items: center;
+    }
+    .header-left{
+        width: 13%;
+    }
+    .header-left a img{
+        width: 100%;
+    }
+    .header-right{
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .right-top{
+        display: flex;
+        padding-bottom: 0.3rem;
+    
+    }
+    .right-top1{
+        border-right: 1px solid #007A5B;
+    }
+    
+    .right-top1 a{
+        padding-right: 1rem;
+        color: #007A5B;
+        opacity: 60%;
+        font-size: 14px;
+        font: 14px/1.4 'r', Arial, sans-serif;
+    }
+    .right-top2 a{
+        padding-right: 1rem;
+        color: #007A5B;
+        opacity: 60%;
+        font-size: 14px;
+        font: 14px/1.4 'r', Arial, sans-serif;
+    }
+    .right-top2{
+        padding-left: 1rem;
+        display: flex;
+        align-items: center;
+    }
+    .right-top2 img{
+        opacity: 60%;
+        padding-right: 1rem;
+    
+    }
+    
+    .right-bottom{
+        display: flex;
+        align-items: center;
+    }
+    .right-bottom a{
+        padding-right: 2rem;
+        color: #007A5B;
+        font-size: 14px;
+        font: 14px/1.4 'r', Arial, sans-serif;
+    }
+    
+    a p{
+        border: 1px solid #007A5B;
+        border-radius: 5px;
+        padding: 4px;
+    }
+    
+    
+    #first{
+        font-family: 'Fira';
+    }
+    
+    .first-title{
+        margin: auto;
+        font-size: 96px;
+        color: #007A5B;
+        letter-spacing: 0;
+        text-align: center;
+        max-width: 60%;
+        line-height: 1em;
+        padding: 3rem 0;
+    }
+    
+    .first-content{
+        width: 75%;
+        margin: auto;
+        background-color: white;
+        border-radius: 20px;
+    }
+    
+    .first-main{
+        font-size: 45px;
+        color: #000000;
+        line-height: 1.2em;
+        padding: 0 0 3rem 0;
+    }
+    .first-content{
+        padding: 85px 90px;
+    }
+    .first-add{
+        color: rgb(165, 165, 165);
+        font-size: 19px;
+        padding-bottom: 1rem;
+        letter-spacing: 1px;
+        font-weight:lighter;
+    }
+    
+    
+    .azn-leftin p,.azn-rightin p{
+        text-align: center;
+    }
+    
+    .azn-t-upper{
+        font-size: 45px;
+        color: #000000;
+        line-height: 1.2em;
+        padding: 0 0 3rem 0;
+    }
+    
+    .azn-t-bottom{
+        color: rgb(151, 151, 151);
+        font-size: 19px;
+        padding-bottom: 1rem;
+        letter-spacing: 1px;
+        font-weight:lighter;
+    
+    }
+    .azn-left, .azn-right{
+        margin: auto;
+    }
+    .azn-t-upper, .azn-t-bottom{
+        margin: auto;
+    }
+    .azn-info{
+        padding: 4rem 0;
+        width: 100%;
+        border-bottom: 1px solid rgb(223, 223, 223);
+    }
+    
+    #second{
+        padding: 3rem 0;
+    }
+    .second-option{
+        border: solid 1px rgb(212, 212, 212);
+        border-radius: 5px;
+        z-index: 1;
+    }
+    .second-option1{
+        border: solid 1px rgb(212, 212, 212);
+        border-radius: 5px;
+        z-index: 1;
+    }
+    
+    .second-option img{
+        width: 75%;
+        padding: 4rem 2rem;
+        filter: grayscale(0.5);   
+        opacity: 0.4; 
+        margin: auto;
+        transition: .5s;
+        cursor: pointer;
+    }
+    .second-option1 img{
+        width: 75%;
+        padding: 4rem 2rem;
+        filter: grayscale(0.5);   
+        opacity: 0.4; 
+        margin: auto;
+        transition: .5s;
+        cursor: pointer;
+    }
+    .second-option1{
+        position: relative;
+    }
+    .large img{
+        width: 60%;
+    }
+    .qovno{
+        width: 60;
+    }
+    .second-options{
+    
+        justify-content: center;
+        margin: auto;
+        gap: 1rem;
+    }
+    .first-inner{
+        opacity: 0;
+        z-index: 2;
+        background-color: white;
+        position: absolute;
+        bottom: 15px;
+        left: 0;
+        padding:2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .second-option:hover  img{
+        opacity: 1;
+        filter: grayscale(0);
+    }
+    .second-option1:hover  .first-inner, .first-inner img{
+        opacity: 1;
+        filter: grayscale(0);
+    }
+    .tema{
+        width: 7% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .inner-option{
+        position: relative;
+    }
+    .inner-option span{
+        color: black;
+    }
+    .inner-option span::after{
+        content: '';
+        background-color: #000000;
+        width: 0;
+        height: 1px;
+        bottom: 0;
+        left: 13px;
+        position: absolute;
+        transition: .5s;
+    }
+    .inner-option span:hover::after{
+        width: 80%;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .comp-version{
+        display: none;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    header{
+        background-image: url(https://www.pasha-holding.az/site/assets/files/1033/shutterstock_527339023_copy_17.png);
+        background-position: 0 70%;
+    }
+    
+    .container-main{
+        padding: 1rem 1.5rem 3rem 1.5rem;
+    }
+    .header-all{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-left{
+        width: 25%;
+    }
+    .header-left a img{
+        width: 100%;
+    }
+    .header-right{
+        padding-left: 1rem;
+        display: flex;
+        align-items: center;
+    }
+    .header-right a{
+        padding-right: 1rem;
+        color: #007A5B;
+        font-size: 14px;
+        font: 14px/1.4 'r', Arial, sans-serif;
+    }
+    
+    a p{
+        border: 1px solid #007A5B;
+        border-radius: 5px;
+        padding: 4px;
+    }
+
+
+
+    #first{
+        font-family: 'Fira';
+    }
+    
+    .first-title{
+        margin: auto;
+        font-size: 2.2rem;
+        color: #007A5B;
+        letter-spacing: 0;
+        text-align: center;
+        max-width: 80%;
+        line-height: 1em;
+        padding: 1rem 0;
+    }
+    
+    .first-content{
+        width: 100%;
+        margin: auto;
+        background-color: white;
+    }
+    .first-content{
+        width: 100%;
+        margin: auto;
+        background-color: white;
+    }
+    .first-content-text{
+        padding: 0 1rem;
+    }
+    .first-main{
+        font-size: 27px;
+        color: #000000;
+        line-height: 1.2em;
+        padding: 0 0 3rem 0;
+        font-family: 'Fira';
+    }
+    
+    .first-content{
+        padding: 85px 0rem;
+    }
+    .first-add{
+        color: rgb(165, 165, 165);
+        font-size: 19px;
+        padding-bottom: 1rem;
+        letter-spacing: 1px;
+        font-weight:lighter;
+    }
+
+
+    .azn-leftin p,.azn-rightin p{
+        text-align: center;
+    }
+    
+    .azn-t-upper{
+        font-size: 32px;
+        color: #000000;
+        line-height: 1em;
+        padding: 0 0 1rem 0;
+    }
+    
+    .azn-t-bottom{
+        color: rgb(151, 151, 151);
+        font-size: 16px;
+        padding-bottom: 1rem;
+        letter-spacing: 1px;
+        font-weight:lighter;
+    
+    }
+    .azn-left, .azn-right{
+        margin: auto;
+        font-family: 'Fira';
+
+    }
+    .azn-t-upper, .azn-t-bottom{
+        margin: auto;
+    }
+    .azn-info{
+        padding: 4rem 0;
+        width: 100%;
+        border-bottom: 1px solid rgb(223, 223, 223);
+    }
+
+
+
+    #second{
+        padding: 3rem 0;
+    }
+    .second-option{
+        border: solid 1px rgb(212, 212, 212);
+        border-radius: 5px;
+        z-index: 1;
+    }
+    .second-option1{
+        border: solid 1px rgb(212, 212, 212);
+        border-radius: 5px;
+        z-index: 1;
+    }
+    
+    .second-option img{
+        width: 75%;
+        padding: 4rem 2rem;
+        filter: grayscale(0.5);   
+        opacity: 0.4; 
+        margin: auto;
+        transition: .5s;
+        cursor: pointer;
+    }
+    .second-option1 img{
+        width: 75%;
+        padding: 4rem 2rem;
+        filter: grayscale(0.5);   
+        opacity: 0.4; 
+        margin: auto;
+        transition: .5s;
+        cursor: pointer;
+    }
+    .second-option1{
+        position: relative;
+    }
+    .large img{
+        width: 60%;
+    }
+    .qovno{
+        width: 60;
+    }
+    .second-options{
+    
+        justify-content: center;
+        margin: auto;
+        gap: 1rem;
+    }
+    .first-inner{
+        opacity: 0;
+        z-index: 2;
+        background-color: white;
+        position: absolute;
+        bottom: 15px;
+        left: 0;
+        padding:2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .second-option:hover  img{
+        opacity: 1;
+        filter: grayscale(0);
+    }
+    .second-option1:hover  .first-inner, .first-inner img{
+        opacity: 1;
+        filter: grayscale(0);
+    }
+    .tema{
+        width: 7% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .inner-option{
+        position: relative;
+    }
+    .inner-option span{
+        color: black;
+        font-size: 13px;
+    }
+    .inner-option span::after{
+        content: '';
+        background-color: #000000;
+        width: 0;
+        height: 1px;
+        bottom: 0;
+        left: 13px;
+        position: absolute;
+        transition: .5s;
+    }
+    .inner-option span:hover::after{
+        width: 80%;
+    }
+
+}
+
+.col-lg-auto {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.col-lg-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+}
+
+  .col-lg-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 22%;
+  }
+
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-lg-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-lg-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-lg-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-lg-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-lg-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+
+
+
+
+@media (max-width: 576px){
+      .col {
+        flex: 1 0 0%;
+      }
+      
+      .row-cols-auto > * {
+        flex: 0 0 auto;
+        width: auto;
+      }
+      
+      .row-cols-1 > * {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+      
+      .row-cols-2 > * {
+        flex: 0 0 auto;
+        width: 50%;
+      }
+      
+      .row-cols-3 > * {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+      }
+      
+      .row-cols-4 > * {
+        flex: 0 0 auto;
+        width: 25%;
+      }
+      
+      .row-cols-5 > * {
+        flex: 0 0 auto;
+        width: 20%;
+      }
+      
+      .row-cols-6 > * {
+        flex: 0 0 auto;
+        width: 16.6666666667%;
+      }
+      
+      .col-auto {
+        flex: 0 0 auto;
+        width: auto;
+      }
+      
+      .col-1 {
+        flex: 0 0 auto;
+        width: 8.33333333%;
+      }
+      
+      .col-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%;
+      }
+      
+      .col-3 {
+        flex: 0 0 auto;
+        width: 25%;
+      }
+      
+      .col-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+      }
+      
+      .col-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+      }
+      
+      .col-6 {
+        flex: 0 0 auto;
+        width: 50%;
+      }
+      
+      .col-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+      }
+      
+      .col-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+      }
+      
+      .col-9 {
+        flex: 0 0 auto;
+        width: 75%;
+      }
+      
+      .col-10 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+      }
+      
+      .col-11 {
+        flex: 0 0 auto;
+        width: 91.66666667%;
+      }
+      
+      .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+}
+
+
+
+  @media (min-width: 576px) {
+    .col-sm {
+      flex: 1 0 0%;
+    }
+  
+    .row-cols-sm-auto > * {
+      flex: 0 0 auto;
+      width: auto;
+    }
+  
+    .row-cols-sm-1 > * {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  
+    .row-cols-sm-2 > * {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  
+    .row-cols-sm-3 > * {
+      flex: 0 0 auto;
+      width: 33.3333333333%;
+    }
+  
+    .row-cols-sm-4 > * {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .row-cols-sm-5 > * {
+      flex: 0 0 auto;
+      width: 20%;
+    }
+  
+    .row-cols-sm-6 > * {
+      flex: 0 0 auto;
+      width: 16.6666666667%;
+    }
+  
+    .col-sm-auto {
+      flex: 0 0 auto;
+      width: auto;
+    }
+  
+    .col-sm-1 {
+      flex: 0 0 auto;
+      width: 8.33333333%;
+    }
+  
+    .col-sm-2 {
+      flex: 0 0 auto;
+      width: 16.66666667%;
+    }
+  
+    .col-sm-3 {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .col-sm-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+    }
+  
+    .col-sm-5 {
+      flex: 0 0 auto;
+      width: 41.66666667%;
+    }
+  
+    .col-sm-6 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  
+    .col-sm-7 {
+      flex: 0 0 auto;
+      width: 58.33333333%;
+    }
+  
+    .col-sm-8 {
+      flex: 0 0 auto;
+      width: 66.66666667%;
+    }
+  
+    .col-sm-9 {
+      flex: 0 0 auto;
+      width: 75%;
+    }
+  
+    .col-sm-10 {
+      flex: 0 0 auto;
+      width: 83.33333333%;
+    }
+  
+    .col-sm-11 {
+      flex: 0 0 auto;
+      width: 91.66666667%;
+    }
+  
+    .col-sm-12 {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+
+  }
+
+  @media (min-width: 768px) {
+    .col-md {
+      flex: 1 0 0%;
+    }
+  
+    .row-cols-md-auto > * {
+      flex: 0 0 auto;
+      width: auto;
+    }
+  
+    .row-cols-md-1 > * {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  
+    .row-cols-md-2 > * {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  
+    .row-cols-md-3 > * {
+      flex: 0 0 auto;
+      width: 33.3333333333%;
+    }
+  
+    .row-cols-md-4 > * {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .row-cols-md-5 > * {
+      flex: 0 0 auto;
+      width: 20%;
+    }
+  
+    .row-cols-md-6 > * {
+      flex: 0 0 auto;
+      width: 16.6666666667%;
+    }
+  
+    .col-md-auto {
+      flex: 0 0 auto;
+      width: auto;
+    }
+  
+    .col-md-1 {
+      flex: 0 0 auto;
+      width: 8.33333333%;
+    }
+  
+    .col-md-2 {
+      flex: 0 0 auto;
+      width: 16.66666667%;
+    }
+  
+    .col-md-3 {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .col-md-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+    }
+  
+    .col-md-5 {
+      flex: 0 0 auto;
+      width: 41.66666667%;
+    }
+  
+    .col-md-6 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  
+    .col-md-7 {
+      flex: 0 0 auto;
+      width: 58.33333333%;
+    }
+  
+    .col-md-8 {
+      flex: 0 0 auto;
+      width: 66.66666667%;
+    }
+  
+    .col-md-9 {
+      flex: 0 0 auto;
+      width: 75%;
+    }
+  
+    .col-md-10 {
+      flex: 0 0 auto;
+      width: 83.33333333%;
+    }
+  
+    .col-md-11 {
+      flex: 0 0 auto;
+      width: 91.66666667%;
+    }
+  
+    .col-md-12 {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+}
+
+.row {
+    --bs-gutter-x: 3.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.g-0,
+.gx-0 {
+  --bs-gutter-x: 0;
+}
+
+.g-0,
+.gy-0 {
+  --bs-gutter-y: 0;
+}
+
+.g-1,
+.gx-1 {
+  --bs-gutter-x: 0.25rem;
+}
+
+.g-1,
+.gy-1 {
+  --bs-gutter-y: 0.25rem;
+}
+
+.g-2,
+.gx-2 {
+  --bs-gutter-x: 0.5rem;
+}
+
+.g-2,
+.gy-2 {
+  --bs-gutter-y: 0.5rem;
+}
+
+.g-3,
+.gx-3 {
+  --bs-gutter-x: 1rem;
+}
+
+.g-3,
+.gy-3 {
+  --bs-gutter-y: 1rem;
+}
+
+.g-4,
+.gx-4 {
+  --bs-gutter-x: 1.5rem;
+}
+
+.g-4,
+.gy-4 {
+  --bs-gutter-y: 1.5rem;
+}
+
+.g-5,
+.gx-5 {
+  --bs-gutter-x: 3rem;
+}
+
+.g-5,
+.gy-5 {
+  --bs-gutter-y: 3rem;
+}
+
+.m-auto {
+    margin: auto !important;
+  }
