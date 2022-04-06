@@ -1,0 +1,218 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+@media (max-width: 768px){
+
+    #first{
+        background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    }
+    .first-all{
+        padding: 9rem 0;
+    }
+    .first-btn{
+        padding: .9rem !important;
+        border-radius: 5px;
+    }
+    .first-input{
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+    .second-option{
+        padding: 2rem 0;
+    }
+    .second-option p{
+        width: 60%;
+    }
+    .third-all{
+
+        --bs-gutter-x: none;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .third1, .third2, .third3{
+        flex-wrap: wrap;
+    }
+    i{
+        color: #0d6efd;
+        font-size: 4.5rem;
+        padding: 1.5rem;
+    }
+    .third1o-pic{
+        background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg);
+        background-position: center;
+        min-height: 30rem;
+        background-size: cover;
+    }
+    .third2-pic{
+        background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-2.jpg);
+        min-height: 30rem;
+        background-size: cover;
+    }
+    .third3o-pic{
+        background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-3.jpg);
+        min-height: 30rem;
+        background-size: cover;
+    }
+
+    .third1-text{
+        padding: 4rem 3rem !important;
+        width: 60%;
+
+    }
+    .third2-text{
+        padding: 4rem 5rem !important;
+
+    }
+    .third3-text{
+        padding: 4rem 5rem !important;
+
+    }
+    #fourth{
+        padding: 6rem 0;
+    }
+    .fourth-pic{
+        text-align: center;
+        padding-bottom: 1rem;
+
+    }
+    .fourth-pic img{
+        border-radius: 50%;
+        width: 40%;
+        box-shadow: 0 0 9px rgb(73, 73, 73);
+    }
+
+    footer{
+        background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+        background-repeat: no-repeat;
+        object-fit: contain;
+        background-position: center;
+    }
+    .first-all{
+        padding: 4rem 0;
+    }
+    .first-btn{
+        padding: .9rem !important;
+        border-radius: 5px;
+    }
+    .first-input{
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    #footer-button{
+        margin-left: 2rem;
+    }
+    .footer-input{
+        width: 80%;
+    }
+
+
+}
+
+@media (min-width: 768px){
+    .third1o-pic, .third3o-pic{
+        display: none;
+    }
+    #first{
+        background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    }
+    .first-all{
+        padding: 9rem 0;
+    }
+    .first-btn{
+        padding: .9rem !important;
+        border-radius: 5px;
+    }
+    .first-input{
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+    #second{
+        padding: 7rem;
+    }
+    .third-all{
+        --bs-gutter-x: none;
+        width: 100%;
+    }
+    i{
+        color: #0d6efd;
+        font-size: 4.5rem;
+        padding: 1.5rem;
+    }
+
+
+    
+    .third1-pic{
+        background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg);
+        background-position: center;
+    }
+    .third2-pic{
+        background-position: center;
+        background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-2.jpg);
+    }
+    .third3-pic{
+        background-position: center;
+        background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-3.jpg);
+    }
+
+    .third1-text{
+        padding: 9rem 5rem !important;
+        width: 60%;
+
+    }
+    .third2-text{
+        padding: 9rem 5rem !important;
+
+    }
+    .third3-text{
+        padding: 9rem 5rem !important;
+
+    }
+    #fourth{
+        padding: 6rem 0;
+    }
+    .fourth-pic{
+        text-align: center;
+        padding-bottom: 1rem;
+
+    }
+    .fourth-pic img{
+        border-radius: 50%;
+        width: 50%;
+        box-shadow: 0 0 9px rgb(73, 73, 73);
+    }
+
+    footer{
+        background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+        background-repeat: no-repeat;
+        object-fit: contain;
+        background-position: center;
+    }
+    .first-all{
+        padding: 4rem 0;
+    }
+    .first-btn{
+        padding: .9rem !important;
+        border-radius: 5px;
+    }
+    .first-input{
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    #footer-button{
+        margin-left: 2rem;
+    }
+    .footer-input{
+        width: 40%;
+    }
+}
