@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/Styles/prompt.css">
+</head>
+<body>
+    <div class="confirmation" id="confirm">
+        <p>Do you want to register?</p>
+        <button onclick="Confirm()">Yes!</button>
+        <p id="result"></p>
+    </div>
+    <form action="" id="form">
+        <fieldset>
+            <label for="name">Full name</label>
+            <input type="text" placeholder="Full name" name="name">
+            <label for="email">E-mail adress</label>
+            <input type="text" placeholder="example@gmail.com" name="email">
+            <label for="password">Password</label>
+            <input type="password" placeholder="Full name" name="password">
+            <button onclick="Overage()" id="submit">Register!</button>
+        </fieldset>
+    </form>
+    <h1 id="logged"></h1>
+    <script src="./Assets/JS/prompt.js"></script>
+</body>
+</html>
