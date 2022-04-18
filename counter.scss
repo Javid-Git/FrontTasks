@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    .counter{
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .options{
+            display: flex;
+            button{
+                padding: .3rem 1rem;
+                margin: 0rem .5rem;
+            }
+        }
+        #counter{
+            font-size: 50px;
+        }
+    }
+}

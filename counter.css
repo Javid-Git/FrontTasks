@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+}
+
+body .counter {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .counter .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .counter .options button {
+  padding: .3rem 1rem;
+  margin: 0rem .5rem;
+}
+
+body .counter #counter {
+  font-size: 50px;
+}
+/*# sourceMappingURL=counter.css.map */
