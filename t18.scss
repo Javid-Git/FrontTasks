@@ -1,0 +1,29 @@
+.crud{
+    width: 50%;
+    margin: auto;
+    padding: 2rem 0;
+    .box{
+        padding-bottom: 1rem;
+        input{
+            padding: .5rem;
+        }
+    }
+    .order{
+        border-radius: 5px;
+        margin-top: 2rem;
+        list-style: none;
+        padding-left: 0;
+        
+    }
+    .list{
+        border-radius: 5px;
+        border: 1px solid rgb(175, 175, 175);
+        padding: .5rem;
+        margin: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .edit{
+        margin-right: 10px;
+    }
+}
