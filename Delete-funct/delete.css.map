@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAA;EACD,cAAc,EAAE,MAAM;EACtB,MAAM,EAAE,KAAK;EACb,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAM1B;;AAXD,AAOI,KAPC,CAOD,KAAK,CAAA;EACD,OAAO,EAAE,QAAQ;EACjB,MAAM,EAAE,cAAc;CACzB;;AAGL,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAC,SAAU;CAC9B",
+    "sources": [
+        "delete.scss"
+    ],
+    "names": [],
+    "file": "delete.css"
+}
