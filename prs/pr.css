@@ -1,0 +1,157 @@
+.user-choice {
+  padding-top: 1rem;
+  gap: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.user-choice .opt {
+  border: 1px solid gray;
+  height: 200px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.user-choice .opt :hover {
+  -webkit-box-shadow: 0 0 10px #3f3f3f;
+          box-shadow: 0 0 10px #3f3f3f;
+}
+
+.user-choice .opt img {
+  width: 100%;
+  vertical-align: bottom;
+  height: 100%;
+}
+
+.result {
+  border: 1px solid gray;
+  margin-top: 1rem;
+  margin: 1rem auto 0 auto;
+  height: 90px;
+  background-color: #272727;
+}
+
+.result #result p {
+  background-color: black;
+  color: white;
+}
+
+.comp-choice {
+  padding-top: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.comp-choice .optt {
+  border: 1px solid gray;
+  height: 200px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.comp-choice .optt :hover {
+  -webkit-box-shadow: 0 0 10px #3f3f3f;
+          box-shadow: 0 0 10px #3f3f3f;
+}
+
+.comp-choice .optt img {
+  width: 100%;
+  vertical-align: bottom;
+  height: 100%;
+}
+
+.me, .ai {
+  position: absolute;
+}
+
+.me h1, .ai h1 {
+  color: white;
+}
+
+.me h2, .ai h2 {
+  color: antiquewhite;
+}
+
+.me {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 60px;
+}
+
+.ai {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 60px;
+}
+
+.fair {
+  background-color: #dadada;
+  color: #383838;
+  text-align: center;
+  padding: .5rem 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 1;
+}
+
+.win {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: .5rem 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 1;
+}
+
+.lose {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: .5rem 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .user-choice {
+    padding: 3rem 0;
+  }
+  .user-choice h3 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .opt {
+    height: 130px !important;
+  }
+  .box {
+    padding-top: 2rem;
+  }
+  .result {
+    height: 76px;
+  }
+  .comp-choice {
+    padding-top: 3rem !important;
+  }
+  .optt {
+    height: 150px !important;
+  }
+  .me {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 40px;
+  }
+  .ai {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 40px;
+  }
+}
+/*# sourceMappingURL=pr.css.map */

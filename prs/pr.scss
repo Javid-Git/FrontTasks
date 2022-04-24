@@ -1,0 +1,132 @@
+.user-choice{
+    padding-top: 1rem;
+    gap: 1.5rem;
+    justify-content: center;
+    .opt{
+        border: 1px solid gray;
+        height: 200px;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        :hover{
+            box-shadow: 0 0 10px rgb(63, 63, 63);
+        }
+        img{
+            width: 100%;
+            vertical-align: bottom;
+            height: 100%;
+        }
+    }
+}
+.result{
+    border: 1px solid gray;
+    margin-top: 1rem;
+    margin: 1rem auto 0 auto;
+    height: 90px;
+    background-color: rgb(39, 39, 39);
+    #result{
+        p{
+            background-color: black;
+            color: white;
+        }
+    }
+}
+.comp-choice{
+    padding-top: 1rem;
+    justify-content: center;
+    .optt{
+        border: 1px solid gray;
+        height: 200px;
+        cursor: pointer;
+        background-color: white;
+        :hover{
+            box-shadow: 0 0 10px rgb(63, 63, 63);
+        }
+        img{
+            width: 100%;
+            vertical-align: bottom;
+            height: 100%;
+        }
+    }
+}
+.me, .ai{
+    position: absolute;
+    h1{
+        color: white;
+    }
+    h2{
+        color: antiquewhite;
+    }
+}
+.me{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 60px;
+}
+.ai{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 60px;
+}
+
+.fair{
+    background-color: rgb(218, 218, 218);
+    color: rgb(56, 56, 56);
+    text-align: center;
+    padding: .5rem 0;
+    transition: .3s;
+    opacity: 1;
+
+}
+.win{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: .5rem 0;
+    transition: .3s;
+    opacity: 1;
+
+}
+.lose{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: .5rem 0;
+    transition: .3s;
+    opacity: 1;
+}
+@media (max-width: 768px) {
+    .user-choice{
+        padding: 3rem 0;
+        h3{
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    }
+    .opt{
+        height: 130px !important;
+    }
+    .box{
+        padding-top: 2rem;
+    }
+    .result{
+        height: 76px;
+        
+    }
+    .comp-choice{
+        padding-top: 3rem !important;
+    }
+    .optt{
+        height: 150px !important;
+
+    }
+    .me{
+        top: 50%;
+        transform: translateY(-50%);
+        left: 40px;
+    }
+    .ai{
+        top: 50%;
+        transform: translateY(-50%);
+        right: 40px;
+    }
+}
