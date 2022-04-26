@@ -1,0 +1,26 @@
+fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    table{
+        border-collapse: separate;
+        border-spacing: 10px 20px;
+        tbody{
+            
+            tr{
+                td{
+                    label{
+                        font-size: 20px;
+                    }
+                    input{
+                        padding: .4rem .8rem
+                    };
+                    span{
+                        color: rgb(150, 150, 150);
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

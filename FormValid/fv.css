@@ -1,0 +1,30 @@
+fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+fieldset table {
+  border-collapse: separate;
+  border-spacing: 10px 20px;
+}
+
+fieldset table tbody tr td label {
+  font-size: 20px;
+}
+
+fieldset table tbody tr td input {
+  padding: .4rem .8rem;
+}
+
+fieldset table tbody tr td span {
+  color: #969696;
+  font-size: 12px;
+}
+/*# sourceMappingURL=fv.css.map */
