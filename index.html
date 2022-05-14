@@ -7,7 +7,7 @@
     <title>Bacola Home Page</title>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" href="./home4.css">
+    <link rel="stylesheet" href="/assets/css/home4.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/2kzcl.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,7 +23,7 @@
                 <div class="htb row ">
                     <div class="ht-left col-lg-4">
                         <ul class="d-flex justify-content-start">
-                            <li><a href="">About Us</a></li>
+                            <li><a href="./assets/html/about.html">About Us</a></li>
                             <li><a href="">My Account</a></li>
                             <li><a href="">Wishlist</a></li>
                             <li><a href="">Order Tracking</a></li>
@@ -63,7 +63,7 @@
             <div class="ccontainer">
                 <div class="hc-all row">
                     <div class="logo col-lg-2">
-                        <a href="">
+                        <a href="./index.html">
                             <img class="img-fluid" src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png" alt="">
                             <span>Online Grocery Shopping Center</span>
                         </a>
@@ -89,23 +89,23 @@
                     </div>
                     <div class="hc-buttons col-lg-2 d-flex align-items-center">
                         <div class="hc-login">
-                            <a href=""><div class="log-icon"><i class="klbth-icon-user"></i></div></a>
+                            <a href="./assets/html/login.html"><div class="log-icon"><i class="klbth-icon-user"></i></div></a>
                         </div>
                         <div class="hc-cart">
                             <div class="hcc-price d-flex align-items-center">
                                 <span class="span-total-price"><bdi><span class="">$</span>0.00</bdi></span>
-                                <div class="cart-icon"><i class="klbth-icon-shopping-bag"></i><span class="cart-count">0</span></div>
+                                <div class="cart-icon"><i class="klbth-icon-shopping-bag"></i><span id="cart-count" class="cart-count"></span></div>
                             </div>
                             <div class="cart-adds col-lg-3 d-flex flex-column align-items-center">
                                 <div class="ca-top d-flex flex-column align-items-center">
                                     <div class="cart-win">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280.028 280.028" width="280.028" height="80.028">
-                                        <path class="c-01" d="M35.004 0h210.02v78.758H35.004V0z" fill="#d07c40"></path>
-                                        <path class="c-02" d="M262.527 61.256v201.27c0 9.626-7.876 17.502-17.502 17.502H35.004c-9.626 0-17.502-7.876-17.502-17.502V61.256h245.025z" fill="#f4b459"></path>
-                                        <path class="c-03" d="M35.004 70.007h26.253V26.253L35.004 0v70.007zm183.767-43.754v43.754h26.253V0l-26.253 26.253z" fill="#f4b459"></path>
-                                        <path class="c-04" d="M61.257 61.256V26.253L17.503 61.256h43.754zm157.514-35.003v35.003h43.754l-43.754-35.003z" fill="#e3911c"></path>
-                                        <path class="c-05" d="M65.632 105.01c-5.251 0-8.751 3.5-8.751 8.751s3.5 8.751 8.751 8.751 8.751-3.5 8.751-8.751c0-5.25-3.5-8.751-8.751-8.751zm148.764 0c-5.251 0-8.751 3.5-8.751 8.751s3.5 8.751 8.751 8.751 8.751-3.5 8.751-8.751c.001-5.25-3.501-8.751-8.751-8.751z" fill="#cf984a"></path>
-                                        <path class="c-06" d="M65.632 121.637c5.251 0 6.126 6.126 6.126 6.126 0 39.379 29.753 70.882 68.257 70.882s68.257-31.503 68.257-70.882c0 0 .875-6.126 6.126-6.126s6.126 6.126 6.126 6.126c0 46.38-35.003 83.133-80.508 83.133s-80.508-37.629-80.508-83.133c-.001-.001.874-6.126 6.124-6.126z" fill="#cf984a"></path>
+                                        <path class="c-01" d="M35.004 0h210.02v78.758H35.004V0z" fill="#b7343e"></path>
+                                        <path class="c-02" d="M262.527 61.256v201.27c0 9.626-7.876 17.502-17.502 17.502H35.004c-9.626 0-17.502-7.876-17.502-17.502V61.256h245.025z" fill="#f04652"></path>
+                                        <path class="c-03" d="M35.004 70.007h26.253V26.253L35.004 0v70.007zm183.767-43.754v43.754h26.253V0l-26.253 26.253z" fill="#f04652"></path>
+                                        <path class="c-04" d="M61.257 61.256V26.253L17.503 61.256h43.754zm157.514-35.003v35.003h43.754l-43.754-35.003z" fill="#b7343e"></path>
+                                        <path class="c-05" d="M65.632 105.01c-5.251 0-8.751 3.5-8.751 8.751s3.5 8.751 8.751 8.751 8.751-3.5 8.751-8.751c0-5.25-3.5-8.751-8.751-8.751zm148.764 0c-5.251 0-8.751 3.5-8.751 8.751s3.5 8.751 8.751 8.751 8.751-3.5 8.751-8.751c.001-5.25-3.501-8.751-8.751-8.751z" fill="#b7343e"></path>
+                                        <path class="c-06" d="M65.632 121.637c5.251 0 6.126 6.126 6.126 6.126 0 39.379 29.753 70.882 68.257 70.882s68.257-31.503 68.257-70.882c0 0 .875-6.126 6.126-6.126s6.126 6.126 6.126 6.126c0 46.38-35.003 83.133-80.508 83.133s-80.508-37.629-80.508-83.133c-.001-.001.874-6.126 6.124-6.126z" fill="#b7343e"></path>
                                         <path class="c-07" d="M65.632 112.886c5.251 0 6.126 6.126 6.126 6.126 0 39.379 29.753 70.882 68.257 70.882s68.257-31.503 68.257-70.882c0 0 .875-6.126 6.126-6.126s6.126 6.126 6.126 6.126c0 46.38-35.003 83.133-80.508 83.133s-80.508-37.629-80.508-83.133c-.001 0 .874-6.126 6.124-6.126z" fill="#fdfbf7"></path></svg>
                                     </div>
                                     <p>No products in the cart.</p>
@@ -276,7 +276,7 @@
                             </div>
                         </div>
                         <div id="hb-shop" class="hb-opt">
-                            <a href="">
+                            <a href="/assets/html/shop.html">
                                 <span>SHOP</span>
                                 <i class="fa-solid fa-angle-down"></i>
                             </a>
@@ -375,7 +375,7 @@
                             
                         </div>
                         <div class="hb-opt">
-                            <a href="">
+                            <a href="/assets/html/contact.html">
                                 <span>CONTACT</span>
                             </a>
                             
@@ -796,14 +796,14 @@
                 </div>
                 <div class="category-products col-lg-8">
                     <div class="products row g-0 flex-wrap">
-                        <div class="product col-lg-3">
+                        <div id="broccoli" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
                                         <span>24%</span>
                                     </div>
                                 </div>
-                                <a href="">
+                                <a class="picture-button" href="">
                                     <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-57-346x310.jpg" alt="">
                                 </a>
                                 <div class="product-buttons">
@@ -817,7 +817,7 @@
                             </div>
                             <div class="product-bottom-wraper d-flex flex-column justify-content-evenly">
                                 <div class="product-title ">
-                                    <a href="">Broccoli Crowns</a>
+                                    <a class="title-button" href="/assets/html/product.html">Broccoli Crowns</a>
                                 </div>
                                 <div class="product-description">
                                     <div class="product-unit">
@@ -839,12 +839,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="coconut" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -887,12 +887,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="banana" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -935,12 +935,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="kiwi" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -983,12 +983,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="grape" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -1031,12 +1031,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="grapefruit" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -1079,12 +1079,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="strawberry" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -1127,12 +1127,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="lime" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -1175,8 +1175,8 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -1241,7 +1241,7 @@
                 </div>
                 <div class="category-products col-lg-8">
                     <div class="products row g-0 flex-wrap">
-                        <div class="product col-lg-3">
+                        <div id="blueberry" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -1284,12 +1284,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="yougurt" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -1332,12 +1332,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="cheese" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -1380,12 +1380,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="butter" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -1428,12 +1428,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="milk" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -1476,12 +1476,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="coffee" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -1524,12 +1524,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="grade" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -1572,12 +1572,12 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="product col-lg-3">
+                        <div id="egg" class="product col-lg-3">
                             <div class="product-top-wraper">
                                 <div class="product-badges">
                                     <div class="discount-badge">
@@ -1620,8 +1620,8 @@
                                     <bdi class="deleted-price">$<span >6.77 </span></bdi>
                                     <bdi class="actual-price">$<span >4.85</span></bdi>
                                 </div>
-                                <div class="product-fade-block flexx">
-                                    <a class="" href="">Add To Cart</a>
+                                <div class="product-fade-block atc flexx">
+                                    <a class="" href="#">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -1982,6 +1982,7 @@
     <script src="./assets/JS/jquery.js"></script>
     <script src="./slick/slick.js"></script>
     <script src="./home4.js"></script>
+    <script src="/assets/JS/cart.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 

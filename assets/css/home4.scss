@@ -1,10 +1,17 @@
+@import 'about';
+@import 'login';
+@import 'contact';
+@import 'shop';
+@import 'product';
+@import 'cart';
+
 @font-face {
     font-family: 'Dosis';
-    src: url(./assets/fonts/Dosis-VariableFont_wght.ttf);
+    src: url(/assets/fonts/Dosis-VariableFont_wght.ttf);
 }
 @font-face {
     font-family: 'Inter';
-    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(/assets/fonts/Inter-VariableFont_slnt_wght.ttf);
 }
 a{
     text-decoration: none !important;
@@ -436,23 +443,7 @@ header{
                     z-index: 111;
                     min-width: 300px;
                     .ca-top{
-                        .cart-win{
-                            position: relative;
-                            text-align: center;
-                            width: 3.75rem;
-                            height: 3.75rem;
-                            border-radius: 50%;
-                            background-color: #eaecef;
-                            overflow: hidden;
-                            svg{
-                                position: absolute;
-                                width: 51px;
-                                height: 43px;
-                                bottom: 0;
-                                left: 5px;
-                            }
-                           
-                        }
+                        
                         p{
                             font-size: .8125rem;
                             font-weight: 500;
@@ -477,6 +468,23 @@ header{
         
     }
     
+}
+.cart-win{
+    position: relative;
+    text-align: center;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    background-color: #eaecef;
+    overflow: hidden;
+    svg{
+        position: absolute;
+        width: 51px;
+        height: 43px;
+        bottom: 0;
+        left: 5px;
+    }
+   
 }
 .header-bottom{
     padding: 1rem 0;
@@ -533,7 +541,7 @@ header{
         min-width: 282px;
         border-radius: 0 0 6px 6px;
         top: 84px;
-        visibility: hidden;
+        display: none;
         z-index: 1111;
         .acs-top{
             .acs-main{
@@ -578,7 +586,7 @@ header{
                         min-height: 471px;
                         background-color: #ffffff;
                         border: 1px solid #e4e5ee;
-                        min-width: 268px;
+                        min-width: 281px;
                         border-radius: 0 0 6px 6px;
                         right: -269px;
                         top: -17px;
@@ -605,7 +613,7 @@ header{
                         min-height: 471px;
                         background-color: #ffffff;
                         border: 1px solid #e4e5ee;
-                        min-width: 268px;
+                        min-width: 281px;
                         border-radius: 0 0 6px 6px;
                         right: -269px;
                         top: -138px;
@@ -1276,7 +1284,7 @@ header{
     bottom: -35px;
     background-color: white;
     z-index: 111;
-    width: 196.5px;
+    width: calc(100% + 2px);
     left: -1px;
     visibility: hidden;
     opacity: 0;
@@ -1643,10 +1651,18 @@ header{
                 font-family: 'Inter';
                 font-size: .8125rem;
                 right: -62px;
-             }
+                &:hover{
+                    color: white;
+                    background-color: #4c5a92;
+                    border: 1px solid #4c5a92;
+            
+                }
+            }
+            
         }
     }
 }
+
 .footer-iconboxes{
     background-color: #f7f8fd;
     

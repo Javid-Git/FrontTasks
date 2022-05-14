@@ -19,14 +19,12 @@ window.onclick = function(event) {
   }
 }
 
-$(document).ready(function() {
-    $("#all-c").click(function() {
-        $(".ac-slide").slideToggle(100, 'linear');
-    });
+
+$("#all-c").click(function() {
+  $(".ac-slide").slideToggle(100, 'linear');
+  document.getElementById('ac-slide').style.display = 'block';
+  
 });
-document.getElementById('all-c').addEventListener('click', function(){
-    document.getElementById('ac-slide').style.visibility = 'visible';
-})
 
 
 $('.sec3-slider').slick({
