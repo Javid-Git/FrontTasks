@@ -67,9 +67,9 @@ li{
 .shop-right-section1{
     background-image: url(https://klbtheme.com/bacola/wp-content/uploads/2021/08/bacola-banner-18.jpg);
     background-position: center;
-    background-size: 100%;
+    background-repeat: no-repeat;
     border-radius: 8px;
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 .banner-items{
     margin: auto;
@@ -231,6 +231,9 @@ li{
         pointer-events: none;
     }
 }
+.product{
+    background-color: white;
+}
 
 //input range
 .noUi-target,.noUi-target * {
@@ -368,4 +371,46 @@ li{
   [disabled].noUi-origin,[disabled] .noUi-handle {
     cursor: not-allowed;
   }
-  
+
+.shop-sort{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop-sort-s{
+    display: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .shop-sort{
+        display: none;
+    }
+    .shop-sort-s{
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        padding: .7rem 0;
+    }
+    .main-wraper-left{
+        display: none;
+    }
+    .shop-view-s, .sort-right-s{
+        font-family: 'Inter';
+
+        color: #202435;
+        font-size: .8125rem;
+        p{
+            margin: 0;
+        }
+        i{
+            padding-left: .5rem;
+        }
+    }
+    
+}

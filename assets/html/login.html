@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bacola Login</title>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="/assets/css/home4.css">
     <link rel="stylesheet" href="/assets/css/bootstrap.css">
     <link rel="stylesheet" href="/assets/css/2kzcl.css">
@@ -23,7 +21,7 @@
                 <div class="htb row ">
                     <div class="ht-left col-lg-4">
                         <ul class="d-flex justify-content-start">
-                            <li><a href="/assets/html/about.html">About Us</a></li>
+                            <li><a href="./assets/html/about.html">About Us</a></li>
                             <li><a href="">My Account</a></li>
                             <li><a href="">Wishlist</a></li>
                             <li><a href="">Order Tracking</a></li>
@@ -62,8 +60,455 @@
         <div class="header-center">
             <div class="ccontainer">
                 <div class="hc-all row">
+                    <div id="reg-modal-s" class="reg-modal d-none">
+                        <div id="sidebar" class="sidebar col-8">
+                            <a href="" class=""><img class="col-6" src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png" alt=""></a>
+                            <div  class="region col-lg-6">
+                                <div class="r-box d-flex">
+                                    <a id="reg-mods"  href="#" class="d-flex align-items-center">
+                                        <div class="r-text">
+                                            <span>Your Location</span>
+                                            <p>Select Location</p>
+                                        </div>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="all-categories col-lg-3">
+                                <div class="ac-blues">
+                                    <button id="all-c-s">
+                                        <i class="klbth-icon-menu-thin"></i>
+                                        <span>ALL CATEGORIES</span>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        
+                                    </button> 
+                                </div>
+                                <div id="ac-slides" class="ac-slides col-lg-2">
+                                    <div class="acs-top">
+                                        <div class="acs-main d-flex flex-column justify-content-center">
+                                            <div id="fav" class="cat1">
+                                                <a href="">
+                                                    <i class="cat-ir klbth-icon-apple-juice"></i>
+                                                    <span> Fruits & Vegetables</span>
+                                                    <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                                <div class="fav-sl">
+                                                    <div class="fav1">
+                                                        <a href="">
+                                                            <span> Fruits & Vegetables</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="fav1">
+                                                        <a href="">
+                                                            <span> Fruits & Vegetables</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="fav1">
+                                                        <a href="">
+                                                            <span> Fruits & Vegetables</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="fav1">
+                                                        <a href="">
+                                                            <span> Fruits & Vegetables</span>
+                                                        </a>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="cat1">
+                                                <a href="">
+                                                    <i class="cat-ir klbth-icon-meat"></i>
+                                                    <span> Meats & Seafood</span>
+                                                    
+                                                </a>
+                                            </div>
+                                            <div class="cat1">
+                                                <a href="">
+                                                    <i class="cat-ir klbth-icon-boiled-egg"></i>
+                                                    <span> Breakfast & Dairy</span>
+                                                </a>
+                                            </div>
+                                            <div id="bev" class="cat1">
+                                                <a href="">
+                                                    <i class="cat-ir klbth-icon-cup"></i>
+                                                    <span> Beverages</span>
+                                                    <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                                <div class="bev-sl">
+                                                    <div class="bev1">
+                                                        <a href="">
+                                                            <span> Fruits & Vegetables</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="bev1">
+                                                        <a href="">
+                                                            <span> Fruits & Vegetables</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="bev1">
+                                                        <a href="">
+                                                            <span> Fruits & Vegetables</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="bev1">
+                                                        <a href="">
+                                                            <span> Fruits & Vegetables</span>
+                                                        </a>
+                                                    </div>
+                                                    
+                                                </div>
+                                            
+                                            </div>
+                                            <div class="cat1">
+                                                <a href="">
+                                                    <i class="cat-ir klbth-icon-biscuit"></i>
+                                                    <span> Breads & Bakery</span>
+                                                </a>
+                                            </div>
+                                            <div class="cat1">
+                                                <a href="">
+                                                    <i class="cat-ir klbth-icon-snowflake"></i>
+                                                    <span> Frozen Foods</span>
+                                                </a>
+                                            </div>
+                                            <div class="cat1">
+                                                <a href="">
+                                                    <i class="cat-ir klbth-icon-candy"></i>
+                                                    <span> Biscuits & Snacks</span>
+                                                </a>
+                                            </div>
+                                            <div class="cat1">
+                                                <a href="">
+                                                    <i class="cat-ir  klbth-icon-vegan"></i>
+                                                    <span> Grocery & Staples</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="acs-add">
+                    
+                                        </div>
+                                    </div>
+                                    <div class="acs-bottom">
+                                        <div class="cat2">
+                                            <a href="">
+                                                <span> Value of the Day</span>
+                                            </a>
+                                        </div>
+                                        <div class="cat2">
+                                            <a href="">
+                                                <span> Top 100 Offers</span>
+                                            </a>
+                                        </div>
+                                        <div class="cat2">
+                                            <a href="">
+                                                <span> New Arrivals</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hb-opts d-flex flex-column">
+                                <ul>
+                                    <li>
+                                        <div id="hb-home" class="hb-opt disable">
+                                            <div class="mega-t1 d-flex align-items-center">
+                                                <a href="/assets/html/shop.html">
+                                                    <span>Home</span>
+                                                </a>
+                                                <i class="fa-solid fa-angle-down mega-t"></i>
+                                            </div>
+                                            <div class="home-adds">
+                                                <ul>
+                                                    <a href=""><li>Home 1</li></a>
+                                                    <a href=""><li>Home 1</li></a>
+                                                    <a href=""><li>Home 1</li></a>
+                                                    <a href=""><li>Home 1</li></a>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div  class="hb-opt">
+                                            <div class="mega-t1 d-flex align-items-center">
+                                                <a href="/assets/html/shop.html">
+                                                    <span>SHOP</span>
+                                                </a>
+                                                <i class="fa-solid fa-angle-down mega-t"></i>
+                                            </div>
+                                            <div class="mega-menus">
+                                                <div class="">
+                                                    <div class="mega-menu-columns row flex-column col-">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="mega-menu-column col-lg-6">
+                                                                    <div class="mega-combine d-flex">
+                                                                        <a href="">
+                                                                            <p class="mega-menu-title">Shop Lists</p>
+                                                                        </a>
+                                                                        <i class="fa-solid fa-angle-down mega-t"></i>
+                                                                    </div>
+                                                                    
+                                                                    <ul class="mega-list-drop">
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="mega-menu-column col-lg-6">
+                                                                    <div class="mega-combine d-flex">
+                                                                        <a href="">
+                                                                            <p class="mega-menu-title">Shop Lists</p>
+                                                                        </a>
+                                                                        <i class="fa-solid fa-angle-down mega-t"></i>
+                                                                    </div>
+                                                                    
+                                                                    <ul class="mega-list-drop">
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="mega-menu-column col-lg-6">
+                                                                    <div class="mega-combine d-flex">
+                                                                        <a href="">
+                                                                            <p class="mega-menu-title">Shop Lists</p>
+                                                                        </a>
+                                                                        <i class="fa-solid fa-angle-down mega-t"></i>
+                                                                    </div>
+                                                                    
+                                                                    <ul class="mega-list-drop">
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="mega-menu-column col-lg-6">
+                                                                    <div class="mega-combine d-flex">
+                                                                        <a href="">
+                                                                            <p class="mega-menu-title">Shop Lists</p>
+                                                                        </a>
+                                                                        <i class="fa-solid fa-angle-down mega-t"></i>
+                                                                    </div>
+                                                                    
+                                                                    <ul class="mega-list-drop">
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        <a href="" class="mega-menu-option"><li>Home 1</li></a>
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="hb-opt">
+                                            <a href="">
+                                                <i class="cat-ir klbth-icon-meat"></i>
+                                                <span> MEATS & SEAFOOD</span>
+                                                
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="hb-opt">
+                                            <a href="">
+                                                <i class="cat-ir klbth-icon-biscuit"></i>
+                                                <span> BAKERY</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="hb-opt">
+                                            <a href="">
+                                                <i class="cat-ir klbth-icon-cup"></i>
+                                                <span> BEVERAGES</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="hb-opt">
+                                            <a href="">
+                                                <span>BLOG</span>
+                                            </a>
+                                            
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="hb-opt">
+                                            <a href="/assets/html/contact.html">
+                                                <span>CONTACT</span>
+                                            </a>
+                                            
+                                        </div>
+                                    </li>
+                                </ul>
+                                
+                                
+                                
+                               
+                                
+                                
+                                
+                            </div>
+                            <div id="" class="ac-slide col-lg-2">
+                                <div class="acs-top">
+                                    <div class="acs-main d-flex flex-column justify-content-center">
+                                        <div id="fav" class="cat1">
+                                            <a href="">
+                                                <i class="cat-ir klbth-icon-apple-juice"></i>
+                                                <span> Fruits & Vegetables</span>
+                                                <i class="fa-solid fa-angle-right"></i>
+                                            </a>
+                                            <div class="fav-sl">
+                                                <div class="fav1">
+                                                    <a href="">
+                                                        <span> Fruits & Vegetables</span>
+                                                    </a>
+                                                </div>
+                                                <div class="fav1">
+                                                    <a href="">
+                                                        <span> Fruits & Vegetables</span>
+                                                    </a>
+                                                </div>
+                                                <div class="fav1">
+                                                    <a href="">
+                                                        <span> Fruits & Vegetables</span>
+                                                    </a>
+                                                </div>
+                                                <div class="fav1">
+                                                    <a href="">
+                                                        <span> Fruits & Vegetables</span>
+                                                    </a>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="cat1">
+                                            <a href="">
+                                                <i class="cat-ir klbth-icon-meat"></i>
+                                                <span> Meats & Seafood</span>
+                                                
+                                            </a>
+                                        </div>
+                                        <div class="cat1">
+                                            <a href="">
+                                                <i class="cat-ir klbth-icon-boiled-egg"></i>
+                                                <span> Breakfast & Dairy</span>
+                                            </a>
+                                        </div>
+                                        <div id="bev" class="cat1">
+                                            <a href="">
+                                                <i class="cat-ir klbth-icon-cup"></i>
+                                                <span> Beverages</span>
+                                                <i class="fa-solid fa-angle-right"></i>
+                                            </a>
+                                            <div class="bev-sl">
+                                                <div class="bev1">
+                                                    <a href="">
+                                                        <span> Fruits & Vegetables</span>
+                                                    </a>
+                                                </div>
+                                                <div class="bev1">
+                                                    <a href="">
+                                                        <span> Fruits & Vegetables</span>
+                                                    </a>
+                                                </div>
+                                                <div class="bev1">
+                                                    <a href="">
+                                                        <span> Fruits & Vegetables</span>
+                                                    </a>
+                                                </div>
+                                                <div class="bev1">
+                                                    <a href="">
+                                                        <span> Fruits & Vegetables</span>
+                                                    </a>
+                                                </div>
+                                                
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="cat1">
+                                            <a href="">
+                                                <i class="cat-ir klbth-icon-biscuit"></i>
+                                                <span> Breads & Bakery</span>
+                                            </a>
+                                        </div>
+                                        <div class="cat1">
+                                            <a href="">
+                                                <i class="cat-ir klbth-icon-snowflake"></i>
+                                                <span> Frozen Foods</span>
+                                            </a>
+                                        </div>
+                                        <div class="cat1">
+                                            <a href="">
+                                                <i class="cat-ir klbth-icon-candy"></i>
+                                                <span> Biscuits & Snacks</span>
+                                            </a>
+                                        </div>
+                                        <div class="cat1">
+                                            <a href="">
+                                                <i class="cat-ir  klbth-icon-vegan"></i>
+                                                <span> Grocery & Staples</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="acs-add">
+                
+                                    </div>
+                                </div>
+                                <div class="acs-bottom">
+                                    <div class="cat2">
+                                        <a href="">
+                                            <span> Value of the Day</span>
+                                        </a>
+                                    </div>
+                                    <div class="cat2">
+                                        <a href="">
+                                            <span> Top 100 Offers</span>
+                                        </a>
+                                    </div>
+                                    <div class="cat2">
+                                        <a href="">
+                                            <span> New Arrivals</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="sidebar-btn" class="col-2">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="logo-s col-6">
+                        <a href="./index.html">
+                            <img class="img-fluid" src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png" alt="">
+                        </a>
+                    </div>
                     <div class="logo col-lg-2">
-                        <a href="/index.html">
+                        <a href="./index.html">
                             <img class="img-fluid" src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png" alt="">
                             <span>Online Grocery Shopping Center</span>
                         </a>
@@ -87,16 +532,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hc-buttons col-lg-2 d-flex align-items-center">
+                    <div class="hc-buttons col-lg-2  col-2 d-flex ">
                         <div class="hc-login">
-                            <a href="/assets/html/login.html"><div class="log-icon"><i class="klbth-icon-user"></i></div></a>
+                            <a href="./assets/html/login.html"><div class="log-icon"><i class="klbth-icon-user"></i></div></a>
                         </div>
-                        <div class="hc-cart">
-                            <div class="hcc-price d-flex align-items-center">
-                                <span class="span-total-price"><bdi><span class="">$</span>0.00</bdi></span>
-                                <div class="cart-icon"><i class="klbth-icon-shopping-bag"></i><span class="cart-count">0</span></div>
-                            </div>
-                            <div class="cart-adds col-lg-3 d-flex flex-column align-items-center">
+                        <div class="hc-cart col-12 col-lg-9 d-flex justify-content-end">
+                            <a class="little-basket" href="/assets/html/cart.html">
+                                <div class="hcc-price d-flex align-items-center">
+                                    <span class="span-total-price"><span id="page-cart-total" class=""></span></span>
+                                    <div class="cart-icon"><i class="klbth-icon-shopping-bag"></i><span id="cart-count" class="cart-count">0</span></div>
+                                </div>
+                            </a>
+                            <div class="cart-icon-s"><i class="klbth-icon-shopping-bag"></i><span id="cart-count-s" class="cart-count">0</span></div>
+
+                            <div id="cart-adds" class="cart-adds col-lg-3 flex-column align-items-center">
                                 <div class="ca-top d-flex flex-column align-items-center">
                                     <div class="cart-win">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280.028 280.028" width="280.028" height="80.028">
@@ -114,6 +563,32 @@
                                     <p>We reduce shipping prices to only 2.49 €!</p>
                                 </div>
                             </div>
+                                
+                            <div id="dropdown-cart" class="dropdown-cart">
+                                <div class="dropdown-cart-wraper">
+                                    <div id="dropdown-cart-top" class="dropdown-cart-top">
+                                        
+                                    </div>
+                                    <div class="dropdown-cart-down borders">
+                                         
+                                        <table class="small-cart-table d-flex flex-column justify-content-center align-items-center">
+                                            <tr class="small-cart-subtotal d-flex justify-content-between align-items-center">
+                                                <th>Subtotal</th>
+                                                <td id="page-subtotal"></td>
+                                            </tr>
+                                            <tr class="d-flex flex-column justify-content-center align-items-center">
+                                                <td class="checkout"><button href="" class="checkout btn  view-the-cart">View Cart</button></td>
+                                            </tr>
+                                            <tr class="d-flex flex-column justify-content-center align-items-center">
+                                                <td class="checkout"><button class="checkout btn btn-danger cart-button">Proceed to checkout</button></td>
+                                            </tr>
+                                        </table>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>    
+
                         </div>
                     </div>
                 </div>
@@ -123,14 +598,14 @@
             <div class="ccontainer row justify-content-between align-items-center">
                 <div class="all-categories col-lg-3">
                     <div class="ac-blue">
-                        <a id="all-c" href="#">
+                        <button id="all-c">
                             <i class="klbth-icon-menu-thin"></i>
                             <span>ALL CATEGORIES</span>
                             <i class="fa-solid fa-angle-down"></i>
                             <div class="ac-gray">
                                 <span>TOTAL 63 PRODUCTS</span>
                             </div>
-                        </a> 
+                        </button> 
                     </div>
                 </div>
                 <div id="ac-slide" class="ac-slide col-lg-2">
@@ -276,7 +751,7 @@
                             </div>
                         </div>
                         <div id="hb-shop" class="hb-opt">
-                            <a href="">
+                            <a href="/assets/html/shop.html">
                                 <span>SHOP</span>
                                 <i class="fa-solid fa-angle-down"></i>
                             </a>
@@ -387,7 +862,7 @@
             
         </div>
         <div id="reg-modal" class="reg-modal d-none">
-            <div id="rm-content" class="rm-content col-lg-4">
+            <div id="rm-content" class="rm-content col-lg-4 col-8">
                 <h6>Choose your Delivery Location</h6>
                 <p>Enter your address and we will specify the offer for your area.</p>
                 <i id="rm-close" class="klbth-icon-x"></i>
@@ -407,8 +882,8 @@
                     <li>My Account</li>
                 </ul>
             </div>
-            <div class="account-check row g-5">
-                <div class="login-field field col-lg-6">
+            <div class="account-check row  ">
+                <div class="login-field field col-lg-6 col-12">
                     <div class="field-title">
                         LOGIN
                     </div>
@@ -437,7 +912,7 @@
                     </form>
                     
                 </div>
-                <div class="registration-field field col-lg-6">
+                <div class="registration-field field col-lg-6 col-12">
                     <div class="field-title">
                         Register
                     </div>
@@ -471,7 +946,7 @@
     </section>
     <footer>
         <div class="footer-baner">
-            <div class="footer-baner-content col-lg-5">
+            <div class="footer-baner-content col-lg-5 col-12">
                 <h6>$20 discount for your first order</h6>
                 <h3>Join our newsletter and get...</h3>
                 <p>Join our email subscription now to get updates on promotions and coupons.</p>
@@ -485,8 +960,8 @@
         </div>
         <div class="footer-iconboxes">
             <div class="ccontainer">
-                <div class="footer-iconboxe row">
-                    <div class="iconbox-container col col-12 col-md-6 col-lg-3">
+                <div class="footer-iconbox row">
+                    <div class="iconbox-container col-12 col-lg-3">
                         <div class="iconbox">
                             <div class="iconbox-icon"><i class="klbth-icon-milk-box"></i></div>
                             <div class="iconbox-detail">
@@ -494,7 +969,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="iconbox-container col col-12 col-md-6 col-lg-3">
+                    <div class="iconbox-container col-12 col-lg-3">
                         <div class="iconbox">
                             <div class="iconbox-icon"><i class="klbth-icon-delivery-truck-2"></i></div>
                             <div class="iconbox-detail">
@@ -503,7 +978,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="iconbox-container col col-12 col-md-6 col-lg-3">
+                    <div class="iconbox-container col-12 col-lg-3">
                         <div class="iconbox">
                             <div class="iconbox-icon"><i class="klbth-icon-discount-outline"></i></div>
                             <div class="iconbox-detail">
@@ -511,7 +986,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="iconbox-container col col-12 col-md-6 col-lg-3">
+                    <div class="iconbox-container col-12 col-lg-3">
                         <div class="iconbox">
                             <div class="iconbox-icon"><i class="klbth-icon-dollar"></i></div>
                             <div class="iconbox-detail">
@@ -525,7 +1000,7 @@
         <div class="footer-menus">
             <div class="ccontainer">
                 <div class="menu-options row mx-auto">
-                    <div class="menu-option col-lg-footer">
+                    <div class="menu-option col-lg-footer col-12">
                         <h4 class="menu-title">FRUIT & VEGETABLES</h4>
                         <div class="menu-container">
                             <ul class="menu-list">
@@ -539,7 +1014,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="menu-option col-lg-footer">
+                    <div class="menu-option col-lg-footer col-12">
                         <h4 class="menu-title">BREAKFAST & DAIRY</h4>
                         <div class="menu-container">
                             <ul class="menu-list">
@@ -554,7 +1029,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="menu-option col-lg-footer">
+                    <div class="menu-option col-lg-footer col-12">
                         <h4 class="menu-title">MEAT & SEAFOOD</h4>
                         <div class="menu-container">
                             <ul class="menu-list">
@@ -571,7 +1046,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="menu-option col-lg-footer">
+                    <div class="menu-option col-lg-footer col-12">
                         <h4 class="menu-title">BEVERAGES</h4>
                         <div class="menu-container">
                             <ul class="menu-list">
@@ -587,7 +1062,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="menu-option col-lg-footer">
+                    <div class="menu-option col-lg-footer col-12">
                         <h4 class="menu-title">FRUIT & VEGETABLES</h4>
                         <div class="menu-container">
                             <ul class="menu-list">
@@ -669,7 +1144,7 @@
         </div>
         <div class="footer-references">
             <div class="ccontainer">
-                <div class="references-all row align-items-center">
+                <div class="references-all row align-items-center g-0">
                     <p class="col-lg-6">Copyright 2022 © Bacola WordPress Theme. All rights reserved. Powered by KlbTheme.</p>
                     <ul class="reference-list col-lg-6 d-flex">
                         <li><a href="">Privacy Policy</a></li>
@@ -690,6 +1165,8 @@
     <script src="/slick/slick.js"></script>
     <script src="/home4.js"></script>
     <script src="/assets/JS/login.js"></script>
+    <script src="/assets/JS/cart.js"></script>
+    <script src="/assets/JS/small-cart.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

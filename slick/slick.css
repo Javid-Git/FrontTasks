@@ -19,8 +19,8 @@
   overflow: hidden;
   display: block;
   margin: 0;
-  padding: 0;
-  height: 395px;
+  padding: 0 3.4px 0 0;
+  height: 445px;
 }
 
 .slick-list:focus {
@@ -99,5 +99,11 @@
 
 .slick-arrow.slick-hidden {
   display: none;
+}
+
+@media (max-width: 576px) {
+  .slick-list {
+    height: 590px;
+  }
 }
 /*# sourceMappingURL=slick.css.map */

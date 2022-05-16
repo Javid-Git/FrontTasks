@@ -1,10 +1,16 @@
 var modal = document.getElementById("reg-modal");
+var modal_s = document.getElementById("reg-modal-s");
 
 var btn = document.getElementById("reg-mod");
+var btn_s = document.getElementById("reg-mods");
 
 var rm_close = document.getElementById("rm-close");
 
 btn.onclick = function() {
+  modal.classList.remove('d-none')
+  
+}
+btn_s.onclick = function() {
     modal.classList.remove('d-none')
     
 }
@@ -14,17 +20,42 @@ rm_close.onclick = function() {
 }
 
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.classList.add('d-none');
+  console.log('sadasd')
+  
+}
+
+window.onclick = function(event) {
+  if (event.target == modal_s) {
+    modal_s.classList.add('d-none');
+    $('#sidebar').toggleClass('sidebar-show');
+
+  }
+  else if (event.target == modal) {
+    document.getElementById("reg-modal").classList.add('d-none');
   }
 }
 
 
-$("#all-c").click(function() {
-  $(".ac-slide").slideToggle(100, 'linear');
-  document.getElementById('ac-slide').style.display = 'block';
+$("#all-c").click(function(e) {
+  console.log(e.target.parentElement.parentElement.parentElement.nextElementSibling)
+  $('#ac-slide').slideToggle()
+
+  //$(e.target.parentElement.parentElement.parentElement.nextElementSibling).slideToggle();
   
 });
+$("#all-c-s").click(function(e) {
+  console.log(e.target)
+  $('#ac-slides').slideToggle()
+  //$(e.target.parentElement.parentElement.nextElementSibling).slideToggle();
+  
+});
+
+let sidebar_btn = $('#sidebar-btn');
+
+sidebar_btn.click(function(){
+  $('#sidebar').toggleClass('sidebar-show');
+  modal_s.classList.remove('d-none')
+})
 
 
 $('.sec3-slider').slick({
@@ -54,7 +85,7 @@ $('.sec3-slider').slick({
         }
       },
       {
-        breakpoint: 480,
+        breakpoint:500,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -65,3 +96,18 @@ $('.sec3-slider').slick({
       // instead of a settings object
     ]
   });
+
+
+  $(document).ready(function() {
+    $('#sidebar-btn').on('click', function() {
+      $('#sidebar').toggleClass('visible');
+    });
+  });
+
+
+  let mega_menu = $('.mega-t');
+
+  mega_menu.click(function(e){
+    $(e.target.parentElement.nextElementSibling).slideToggle();
+    
+  })

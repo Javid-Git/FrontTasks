@@ -1,7 +1,9 @@
 let atc = document.querySelectorAll('.atc');
 let num = document.getElementById('cart-count')
+let num_s = document.getElementById('cart-count-s')
 let count = 0;
 num.innerHTML = count;
+num_s.innerHTML = count;
 
 
 
@@ -36,6 +38,7 @@ for(let i=0; i<atc.length; i++){
         }
         localStorage.setItem('basket', JSON.stringify(basket));
         Count();
+        
     })
 }
 
@@ -46,6 +49,7 @@ for(let i=0; i<atc.length; i++){
 function Count() {
     let nums = JSON.parse(localStorage.getItem('basket'));
     document.getElementById('cart-count').innerText = nums.length
+    document.getElementById('cart-count-s').innerText = nums.length
 }
 Count();
 
@@ -53,3 +57,16 @@ Count();
 function submitForm(event){
     event.preventDefault();
 }
+
+
+let cart_btn = $('.cart-icon-s');
+
+cart_btn.click(function(){
+    if(basket.length == 0){
+        $('.cart-adds').toggle()
+    }
+    else{
+        $('.dropdown-cart').toggle()
+
+    }
+})

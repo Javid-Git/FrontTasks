@@ -4,7 +4,7 @@ let basket_total = document.getElementById('product-in-cart');
 if(basket.length === 0){
     document.getElementById('no-product').classList.remove('d-none');
     document.getElementById('cart-table').classList.add('d-none');
-    document.getElementById('product-in-cart').classList.add('d-none')
+    document.getElementById('product-in-cart').classList.add('d-none');
 }
 else{
     document.getElementById('no-product').classList.add('d-none');
@@ -37,7 +37,7 @@ else{
                 </div>
                 
             </td>
-            <td>
+            <td class="update-cart">
                 <button class="confirm-btn btn">Update</button>
             </td>
             <td id="subtotal">$<span class="subtotal" ></span></td>
@@ -74,7 +74,6 @@ mid_total.text(mid_total_price)
 let pr_delete = $('.delete');
 
 pr_delete.click(function(e){
-    console.log(e.target)
     for(let i = 0; i<basket.length; i++){
         if(e.target.parentElement.parentElement.childNodes[3].innerText === basket[i].Name){
             basket.splice(i, 1)

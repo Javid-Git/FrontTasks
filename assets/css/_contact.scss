@@ -51,6 +51,7 @@
 
 #section3-contact{
     padding: 5rem 0 0 0;
+    margin-bottom: 3rem;
 }
 .section3-contact-wraper{
     border: 1px solid #edeef5;
@@ -126,4 +127,11 @@
     font-weight: 600;
     font-size: 13px;
     opacity: .6;
+}
+
+@media (max-width: 576px) {
+    .section3-contact-all{
+        width: 79%;
+    }
+    
 }

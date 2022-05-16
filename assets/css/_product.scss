@@ -11,8 +11,7 @@
     padding: 3rem 0 .5rem 0;
     
 }
-.product-wide-details{
-}
+ 
 .prouct-wide-code{
     letter-spacing: .6px;
 
@@ -125,12 +124,15 @@
     color: #202435;
     padding: 0 1rem;
 }
-
+.wide-counter-s{
+    display: none;
+}
 .wide-counter{
     padding: 1rem 0;
+    display: flex;
     .atc-yellow{
         padding-left: .5rem;
-        a{
+        button{
             background-color: #233a95;
             color: white;
             font-weight: 600;
@@ -391,4 +393,38 @@
 }
 .site-navigation{
     padding: 1rem 0;
+}
+.footer-baner{
+    margin-top: 0 !important;
+}
+
+@media (max-width: 576px) {
+    .wide-counter{
+        display: none;
+    }
+    .wide-counter-s{
+        width: 100%;
+        position: sticky;
+        bottom: 0px;
+        background-color: white;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        z-index: 11111111;
+            .atc-yellow{
+                padding-left: .5rem;
+                button{
+                    background-color: #233a95;
+                    color: white;
+                    font-weight: 600;
+                    border-radius: 30px;
+                    font-size: .75rem;
+                    padding: .8rem 3rem;
+                    width: 174px;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
 }
