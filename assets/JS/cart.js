@@ -70,3 +70,4 @@ cart_btn.click(function(){
 
     }
 })
+
