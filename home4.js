@@ -111,3 +111,16 @@ $('.sec3-slider').slick({
     $(e.target.parentElement.nextElementSibling).slideToggle();
     
   })
+
+
+  
+
+if ($(window).width() < 410) {
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 10) {
+        $('.header-top').addClass('d-none');
+    } else {
+        $('.header-top').removeClass('d-none');
+    }
+  });
+}

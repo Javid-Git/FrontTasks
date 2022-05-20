@@ -290,6 +290,7 @@ header{
 .header-center{
     padding-top: 1rem;
     position: relative;
+    background-color: white;
     .ccontainer{
         .logo{
             position: relative;
@@ -2034,13 +2035,47 @@ header{
 
 
 
-
+.footer-mobile{
+    display: none;
+}
 
 
 @media (max-width: 576px) {
+    .footer-mobile{
+        position: sticky;
+        background-color: white;
+        bottom: 0;
+        display: block;
+        border-top: 1px solid rgb(197, 197, 197);
+        z-index: 111111111;
+        padding: 0 20px;
+        ul{
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .bottom-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #b1b1b6;
+        font-family: 'Inter';
+        p{
+            font-size: 11px;
+
+        }
+        i{
+            font-size: 23px;
+        }
+
+    }
     .header-center{
         position: sticky;
-        top: 20px;
+        top: 30px;
+        padding-top: 0;
     }
     .product{
         &:hover{
@@ -2215,6 +2250,9 @@ header{
         display: none;
     }
     header{
+        position:sticky;
+        z-index: 11111111111;
+        top: 0;
         .reg-modal{
             .rm-search{
                 background-color: #f3f4f7;
@@ -2242,7 +2280,7 @@ header{
         top: 0;
         left: -330px;
         padding: 2rem 0;
-        z-index: 111111;
+        z-index: 11111111111111;
         background-color: white;
         height: 100vh;
         padding-left: 1rem;
@@ -2770,11 +2808,11 @@ header{
     
     .sidebar-show{
         display: block;
-        position: absolute ;
+        position: absolute;
         top: 0;
         left: 0 !important;
         padding: 2rem 0;
-        z-index: 111;
+        z-index: 111111111;
         background-color: white;
         height: 100vh;
         transition: .5s;

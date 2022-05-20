@@ -38,6 +38,12 @@
 .klbth-icon-reddit:before {content: '\f1a1'; }
 .klbth-icon-whatsapp:before {content: '\f232'; }
 .klbth-icon-filter:before {content: '\e88c'; }
+.klbth-icon-store:before{content:'\e88d';}
+.klbth-icon-search:before{content:'\e808';}
+.klbth-icon-heart-1:before{content:'\e845';}
+.klbth-icon-user:before{content:'\e807';}
+.klbth-icon-menu-thin:before{content:'\e8b2';}
+
 
 
 

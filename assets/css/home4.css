@@ -1951,6 +1951,7 @@ header .reg-modal .rm-search input {
 .header-center {
   padding-top: 1rem;
   position: relative;
+  background-color: white;
 }
 
 .header-center .ccontainer .logo {
@@ -3845,11 +3846,59 @@ header .reg-modal .rm-search input {
   display: none;
 }
 
+.footer-mobile {
+  display: none;
+}
+
 @media (max-width: 576px) {
+  .footer-mobile {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+    bottom: 0;
+    display: block;
+    border-top: 1px solid #c5c5c5;
+    z-index: 111111111;
+    padding: 0 20px;
+  }
+  .footer-mobile ul {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .bottom-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #b1b1b6;
+    font-family: 'Inter';
+  }
+  .bottom-bottom p {
+    font-size: 11px;
+  }
+  .bottom-bottom i {
+    font-size: 23px;
+  }
   .header-center {
     position: -webkit-sticky;
     position: sticky;
-    top: 20px;
+    top: 30px;
+    padding-top: 0;
   }
   .product:hover .onscreen-button.onscreen-button1.flexx {
     opacity: 1;
@@ -4002,6 +4051,12 @@ header .reg-modal .rm-search input {
   .header-center .ccontainer .hc-buttons .hc-cart .cart-adds {
     display: none;
   }
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 11111111111;
+    top: 0;
+  }
   header .reg-modal .rm-search {
     background-color: #f3f4f7;
     padding: 1rem;
@@ -4024,7 +4079,7 @@ header .reg-modal .rm-search input {
     top: 0;
     left: -330px;
     padding: 2rem 0;
-    z-index: 111111;
+    z-index: 11111111111111;
     background-color: white;
     height: 100vh;
     padding-left: 1rem;
@@ -4552,7 +4607,7 @@ header .reg-modal .rm-search input {
   top: 0;
   left: 0 !important;
   padding: 2rem 0;
-  z-index: 111;
+  z-index: 111111111;
   background-color: white;
   height: 100vh;
   -webkit-transition: .5s;
